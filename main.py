@@ -78,4 +78,5 @@ def tg_message(contents):
 
 with sync_playwright() as playwright:
     title = "填报成功"
+    
     print(title + str(run(playwright) + "℃")
